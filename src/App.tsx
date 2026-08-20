@@ -1,8 +1,8 @@
 import { useState, useEffect, useRef, useCallback } from 'react'
 import hurremLogo from '@/imports/Hurrem_Logo_Final.png'
 import hurremfav from '@/imports/Hurrem Logo_Favicon.png'
-import Hlogo_v from '@/imports/Hlogo_v.png'
 import heroVideo from '@/imports/hero_v.mp4'
+import Hlogo_v from '@/imports/HLogo_v.png'
 
 // ─── Images ──────────────────────────────────────────────────────────────────
 const U = (id: string, w = 1920, h = 1080) =>
@@ -257,7 +257,6 @@ function Navigation() {
 
         <div style={{ position: 'absolute', left: '50%', transform: 'translateX(-50%)' }}>
           <img src={Hlogo_v} alt="Hurrem Palace Logo" style={{ height: isMobile ? 24 : 32, filter: 'brightness(0) saturate(100%) invert(83%) sepia(23%) saturate(1036%) hue-rotate(328deg) brightness(88%) contrast(83%)' }} />
-          <img src={hurremLogo} alt="Hurrem Palace Logo" style={{ height: isMobile ? 24 : 32, filter: 'brightness(0) saturate(100%) invert(83%) sepia(23%) saturate(1036%) hue-rotate(328deg) brightness(88%) contrast(83%)' }} />
         </div>
 
         <a href="#contact" style={{
@@ -288,7 +287,6 @@ function Navigation() {
 
             <div style={{ position: 'absolute', top: isMobile ? 20 : 28, left: isMobile ? 20 : 'auto', ...(isMobile ? {} : { left: 80 }) }}>
               <img src={Hlogo_v} alt="Hurrem Palace Logo" style={{ height: isMobile ? 24 : 32, filter: 'brightness(0) saturate(100%) invert(83%) sepia(23%) saturate(1036%) hue-rotate(328deg) brightness(88%) contrast(83%)' }} />
-              <img src={hurremLogo} alt="Hurrem Palace Logo" style={{ height: isMobile ? 24 : 32, filter: 'brightness(0) saturate(100%) invert(83%) sepia(23%) saturate(1036%) hue-rotate(328deg) brightness(88%) contrast(83%)' }} />
             </div>
 
             <nav style={{ display: 'flex', flexDirection: 'column', gap: 4 }}>
@@ -1156,7 +1154,6 @@ function Footer() {
     <footer style={{ backgroundColor: '#090706', borderTop: '1px solid rgba(114,92,49,0.18)' }}>
       <div style={{ maxWidth: 1320, margin: '0 auto', padding: isMobile ? '60px 24px 0' : '80px 80px 0' }}>
         <img src={Hlogo_v} alt="Hurrem Palace Logo" style={{ height: isMobile ? 36 : 60, marginBottom: 12, filter: 'brightness(0) saturate(100%) invert(90%) sepia(6%) saturate(467%) hue-rotate(359deg) brightness(92%) contrast(91%)' }} />
-        <img src={hurremLogo} alt="Hurrem Palace Logo" style={{ height: isMobile ? 36 : 60, marginBottom: 12, filter: 'brightness(0) saturate(100%) invert(90%) sepia(6%) saturate(467%) hue-rotate(359deg) brightness(92%) contrast(91%)' }} />
         <div style={{ fontFamily: CORMORANT, fontSize: 13, fontStyle: 'italic', color: C.brass, marginBottom: 48, letterSpacing: '0.08em' }}>
           An Ottoman Legacy on Bangladesh's Coast
         </div>
