@@ -357,12 +357,12 @@ function HeroSection() {
       }}>
         <video
           ref={videoRef}
-          src="/imports/hero_v.mp4"
+          src="/imports/HLogo_v.png"
           autoPlay
           loop
           muted
           playsInline
-          style={{ width: '100%', height: '100%', objectFit: 'cover', filter: 'brightness(0.48) saturate(0.75)' }}
+          style={{ width: '100%', height: '100%', objectFit: 'cover', filter: 'brightness(0.65) saturate(0.75)' }}
         />
       </div>
       <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to bottom, rgba(10,8,7,0.25) 0%, rgba(10,8,7,0.05) 35%, rgba(10,8,7,0.55) 75%, rgba(10,8,7,0.95) 100%)' }} />
