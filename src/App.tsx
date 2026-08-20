@@ -357,7 +357,7 @@ function HeroSection() {
       }}>
         <video
           ref={videoRef}
-          src="/imports/HLogo_v.png"
+          src="/imports/hero_v.mp4"
           autoPlay
           loop
           muted
